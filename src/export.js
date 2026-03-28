@@ -61,8 +61,8 @@ export async function exportToCSV(data) {
 
 export const SHEETS_CONFIG = {
   enabled: true,
-  spreadsheetId: 'AIzaSyAlY2g86ztftgFS0DI2IAbwxoy_DYC8Xpc',
-  apiKey: '1SwAAw2HuWyOK-mt06zrRJo6Z3D03wh3c54BrLHqgvPA',
+  spreadsheetId: '',
+  apiKey: '',
   instructions: [
     '1. Go to console.cloud.google.com',
     '2. Create a new project',
