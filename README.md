@@ -67,9 +67,9 @@
 
 | Dashboard | Month View | Category Detail | Settings |
 |:---------:|:----------:|:---------------:|:--------:|
-| *screenshot* | *screenshot* | *screenshot* | *screenshot* |
 
-> 💡 *Take screenshots from your phone and add them to an `assets/screenshots/` folder*
+
+>
 
 ---
 
@@ -160,7 +160,7 @@ moneypulse-by-km/
 | 👨‍👩‍👧 **Personal/Family** | Gold Loan, Investment plans, Gifts |
 | 💳 **Card Transactions** | 20+ bank/card accounts (AXIS, HDFC, ICICI, SBI, RBL, etc.) |
 | 🏡 **Home Care** | Groceries, Milk, Meat, Fruits, Vegetables, Power, Internet, Gas |
-| 👤 **Gowtham's Expenses** | Tracked separately, excluded from main totals |
+| 👤 **Other Expenses** | Tracked separately, excluded from main totals |
 
 ---
 
@@ -183,14 +183,14 @@ moneypulse-by-km/
 ## 🧑‍💻 About the Developer
 
 **Kowndinya Mannepalli**
-- 🏢 SRE & Observability Specialist at Amgen, Hyderabad
+- 🏢 Observability Specialist at Amgen, Hyderabad
 - 📜 Certified: Azure AZ-104, AZ-400, Dynatrace Associate
 - 🎓 9+ years in Enterprise IT (TCS → Infosys → Amgen)
 - 🧠 AIOps Educator — Daily teaching practice for students
 - 🔧 Specializing in Dynatrace, Cloud Infrastructure, DevOps
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/YOUR_LINKEDIN_ID/)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github)](https://github.com/YOUR_USERNAME)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/kowndinyamv/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github)](https://github.com/mkowndinya)
 
 ---
 
