@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="screenshots/dashboard.jpeg" width="250" alt="MoneyPulse Dashboard" />
+  <img src="dashboard.jpeg" width="250" alt="MoneyPulse Dashboard" />
 </p>
 
 <h1 align="center">💰 MoneyPulse <sup>by KM</sup></h1>
@@ -89,14 +89,14 @@ Built in under 3 hours using AI-assisted development — demonstrating how moder
 
 <table>
   <tr>
-    <td align="center"><img src="screenshots/dashboard.jpeg" width="220" /><br/><strong>Dashboard</strong><br/><sub>YTD analytics, monthly trend,<br/>category breakdown</sub></td>
-    <td align="center"><img src="screenshots/essentials-detail.jpeg" width="220" /><br/><strong>Category Detail</strong><br/><sub>3-dot menu, calendar filter,<br/>date stamps on items</sub></td>
-    <td align="center"><img src="screenshots/homecare-detail.jpeg" width="220" /><br/><strong>Home Care</strong><br/><sub>Quick add chips, per-item<br/>dates, edit/delete actions</sub></td>
+    <td align="center"><img src="dashboard.jpeg" width="220" /><br/><strong>Dashboard</strong><br/><sub>YTD analytics, monthly trend,<br/>category breakdown</sub></td>
+    <td align="center"><img src="essentials-detail.jpeg" width="220" /><br/><strong>Category Detail</strong><br/><sub>3-dot menu, calendar filter,<br/>date stamps on items</sub></td>
+    <td align="center"><img src="homecare-detail.jpeg" width="220" /><br/><strong>Home Care</strong><br/><sub>Quick add chips, per-item<br/>dates, edit/delete actions</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="screenshots/cards-vault.jpeg" width="220" /><br/><strong>Card Vault</strong><br/><sub>Encrypted card storage,<br/>tap to reveal number</sub></td>
-    <td align="center"><img src="screenshots/secret-vault.jpeg" width="220" /><br/><strong>Secret Vault</strong><br/><sub>Password manager with<br/>show/hide toggle</sub></td>
-    <td align="center"><img src="screenshots/settings.jpeg" width="220" /><br/><strong>Settings</strong><br/><sub>7 themes, 3 fonts,<br/>export & sync options</sub></td>
+    <td align="center"><img src="cards-vault.jpeg" width="220" /><br/><strong>Card Vault</strong><br/><sub>Encrypted card storage,<br/>tap to reveal number</sub></td>
+    <td align="center"><img src="secret-vault.jpeg" width="220" /><br/><strong>Secret Vault</strong><br/><sub>Password manager with<br/>show/hide toggle</sub></td>
+    <td align="center"><img src="settings.jpeg" width="220" /><br/><strong>Settings</strong><br/><sub>7 themes, 3 fonts,<br/>export & sync options</sub></td>
   </tr>
 </table>
 
@@ -151,7 +151,7 @@ MoneyPulse/
 │   ├── auth.js               # Biometric + PIN authentication
 │   ├── vault.js              # Password vault with character-shift encoding
 │   └── export.js             # CSV export + Google Sheets sync
-├── screenshots/              # App screenshots for README
+├── assets/                   # App icons and splash screen
 ├── package.json
 ├── app.json
 └── babel.config.js
