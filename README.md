@@ -1,208 +1,223 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/Money-Pulse-00C9A7?style=for-the-badge&labelColor=0f172a&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiMwMEM5QTciIHN0cm9rZS13aWR0aD0iMiI+PHBhdGggZD0iTTEyIDFhMyAzIDAgMCAwLTMgM3YxYTMgMyAwIDAgMCA2IDBWNGEzIDMgMCAwIDAtMy0zeiIvPjxwYXRoIGQ9Ik0xOS4xIDQuOWMtLjItLjItLjUtLjItLjcgMGwtNy44IDcuOC03LjgtNy44Yy0uMi0uMi0uNS0uMi0uNyAwLS4yLjItLjIuNSAwIC43bDcuOCA3LjgtNy44IDcuOGMtLjIuMi0uMi41IDAgLjcuMi4yLjUuMi43IDBsNy44LTcuOCA3LjggNy44Yy4yLjIuNS4yLjcgMCAuMi0uMi4yLS41IDAtLjdsLTcuOC03LjggNy44LTcuOGMuMi0uMi4yLS41IDAtLjd6Ii8+PC9zdmc+" alt="MoneyPulse"/>
-  <br/>
-  <strong style="font-size: 24px;">MoneyPulse by KM</strong>
+  <img src="screenshots/dashboard.jpeg" width="250" alt="MoneyPulse Dashboard" />
+</p>
+
+<h1 align="center">💰 MoneyPulse <sup>by KM</sup></h1>
+
+<p align="center">
+  <strong>Intelligent Expense Analytics</strong><br/>
+  A full-featured personal finance tracker built with React Native + Expo
 </p>
 
 <p align="center">
-  <em>Intelligent Expense Analytics — Track, Analyze & Optimize Your Finances</em>
+  <img src="https://img.shields.io/badge/version-2.1.0-00C9A7?style=flat-square" alt="Version" />
+  <img src="https://img.shields.io/badge/platform-Android%20%7C%20iOS-blue?style=flat-square" alt="Platform" />
+  <img src="https://img.shields.io/badge/expo-SDK%2052+-white?style=flat-square&logo=expo" alt="Expo" />
+  <img src="https://img.shields.io/badge/react--native-0.76+-61DAFB?style=flat-square&logo=react" alt="React Native" />
+  <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="License" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/React_Native-0.76-61DAFB?style=flat-square&logo=react&logoColor=white" alt="React Native"/>
-  <img src="https://img.shields.io/badge/Expo-SDK_52-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo"/>
-  <img src="https://img.shields.io/badge/Platform-Android_|_iOS_|_Web-00C9A7?style=flat-square" alt="Platform"/>
-  <img src="https://img.shields.io/badge/License-All_Rights_Reserved-EF476F?style=flat-square" alt="License"/>
-  <img src="https://img.shields.io/badge/Status-Active-06D6A0?style=flat-square" alt="Status"/>
+  <a href="https://youtube.com/shorts/gN8Qbq-Vs6k?si=4V4vo8_OaAv67GHh">🎬 Watch Demo</a> •
+  <a href="#features">Features</a> •
+  <a href="#screenshots">Screenshots</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#tech-stack">Tech Stack</a>
 </p>
 
 ---
 
-## 🎯 Overview
+## About
 
-**MoneyPulse** is a cross-platform personal finance tracker built with React Native and Expo. Designed for real-world expense monitoring with category-wise breakdown, multi-bank card tracking, and interactive dashboards — all running natively on Android, iOS, and Web.
+MoneyPulse is a comprehensive personal expense analytics app designed for tracking monthly spending across multiple categories. It features biometric authentication, encrypted vaults, rich analytics, and a beautiful dark-mode-first UI with 7 theme options.
 
-> Built by **Kowndinya Mannepalli** — Observability Specialist at Amgen, with 9+ years of enterprise IT experience.
-
----
-
-## ✨ Key Features
-
-### 📊 Smart Dashboard
-- Year-to-date spend overview with KPI cards
-- Interactive monthly bar chart with tap-to-drill navigation
-- Category-wise YTD breakdown with visual progress indicators
-- Real-time percentage share calculations
-
-### 📅 Monthly Expense Management
-- 6 categorized expense groups: Essentials, Health & Wellness, Personal/Family, Card Transactions, Home Care, and separate Gowtham's Expenses tracking
-- Per-month summary with automatic total calculations
-- Quick navigation between months with swipe-style arrows
-
-### ⚡ Quick-Add with Presets
-- Pre-configured item names for every category (20+ bank/card names, grocery items, recurring bills)
-- Smart autocomplete suggestions while typing
-- One-tap preset chips — select name, enter amount, done
-
-### 🎨 5 Premium Themes
-| Theme | Style |
-|-------|-------|
-| 🌙 Midnight | Default dark navy |
-| 🌊 Deep Ocean | Rich blue tones |
-| 🌿 Emerald Night | Forest green palette |
-| ☀️ Clean White | Light mode |
-| 👑 Royal Purple | Deep purple aesthetic |
-
-### 💾 Persistent Local Storage
-- All data saved locally on device using AsyncStorage
-- Theme preference remembered across sessions
-- Zero cloud dependency — your data stays on your device
+Built in under 3 hours using AI-assisted development — demonstrating how modern tools can accelerate the journey from idea to production-grade app.
 
 ---
 
-## 📸 Screenshots
+## Features
 
-<!-- Add your screenshots here after building the APK -->
-<!-- Recommended: Dashboard | Month View | Category Detail | Settings -->
+### 🔐 Authentication
+- **Fingerprint-first unlock** — biometric prompt on app launch without auto-opening the keyboard
+- **PIN fallback** — 4-digit PIN setup and verification
+- **Auto-lock** — re-locks when app goes to background
 
-| Dashboard | Month View | Category Detail | Settings |
-|:---------:|:----------:|:---------------:|:--------:|
+### 📊 Expense Analytics
+- **12-month tracking** — full year overview with monthly breakdowns
+- **YTD dashboard** — total spend, monthly average, highest month, active months
+- **Category breakdown** — visual progress bars with percentage allocation
+- **Monthly trend chart** — bar chart showing spending patterns across months
 
+### 📅 Date Tracking & Filtering
+- **Per-item timestamps** — every expense stores a creation date
+- **Date range filter** — calendar icon on detail screen to filter by YYYY-MM-DD range
+- **Filter badge** — shows active date range with one-tap clear
 
->
+### ⋮ 3-Dot Overflow Menu
+- **Add Item** — quick access from the menu
+- **Delete All** — bulk delete all items in a category for the month
+
+### ➕ Custom Categories
+- **Create your own** — beyond the 6 default categories
+- **Icon picker** — choose from 15 Feather icons
+- **Color picker** — 10 color palette options
+- **Emoji support** — custom emoji for each category
+- **Persistent** — saved across app restarts
+
+### 💳 Credit Card Vault
+- **Encrypted storage** — card numbers, expiry, CVV stored securely
+- **Tap to reveal** — masked by default, tap to toggle full number
+- **Edit & delete** — full CRUD operations
+
+### 🔑 Secret Vault (Password Manager)
+- **Encoded passwords** — character-shift encoding for stored credentials
+- **Site + username + password** — organized credential storage
+- **Show/hide toggle** — eye icon to reveal passwords
+
+### 🎨 Themes & Customization
+- **7 themes** — Midnight, Deep Ocean, Emerald Night, Orange Sunset, Warm Beige, Clean White, Royal Purple
+- **3 fonts** — System Default, Monospace, Serif
+- **Persistent preferences** — theme and font saved locally
+
+### 📤 Export & Sync
+- **CSV export** — share to Google Drive, WhatsApp, or any app
+- **Google Sheets sync** — direct push to a connected spreadsheet
 
 ---
 
-## 🛠️ Tech Stack
+## Screenshots
 
-| Layer | Technology |
-|-------|-----------|
-| **Framework** | React Native 0.76 |
-| **Platform** | Expo SDK 52 |
-| **State Management** | React Hooks (useState, useEffect, useCallback, useContext) |
-| **Storage** | @react-native-async-storage/async-storage |
-| **Theming** | Custom Context API with 5 dynamic themes |
-| **Icons** | @expo/vector-icons (Feather) |
-| **Build** | EAS Build (Cloud APK generation) |
-| **Architecture** | Component-based, single-file modular design |
+<table>
+  <tr>
+    <td align="center"><img src="screenshots/dashboard.jpeg" width="220" /><br/><strong>Dashboard</strong><br/><sub>YTD analytics, monthly trend,<br/>category breakdown</sub></td>
+    <td align="center"><img src="screenshots/essentials-detail.jpeg" width="220" /><br/><strong>Category Detail</strong><br/><sub>3-dot menu, calendar filter,<br/>date stamps on items</sub></td>
+    <td align="center"><img src="screenshots/homecare-detail.jpeg" width="220" /><br/><strong>Home Care</strong><br/><sub>Quick add chips, per-item<br/>dates, edit/delete actions</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/cards-vault.jpeg" width="220" /><br/><strong>Card Vault</strong><br/><sub>Encrypted card storage,<br/>tap to reveal number</sub></td>
+    <td align="center"><img src="screenshots/secret-vault.jpeg" width="220" /><br/><strong>Secret Vault</strong><br/><sub>Password manager with<br/>show/hide toggle</sub></td>
+    <td align="center"><img src="screenshots/settings.jpeg" width="220" /><br/><strong>Settings</strong><br/><sub>7 themes, 3 fonts,<br/>export & sync options</sub></td>
+  </tr>
+</table>
 
 ---
 
-## 🚀 Quick Start
+## Installation
 
 ### Prerequisites
-- [Node.js](https://nodejs.org/) (v18 or later)
-- [Expo Go](https://expo.dev/client) app on your phone (for development)
-- VS Code (recommended)
+- Node.js 18+
+- Expo CLI (`npm install -g expo-cli`)
+- Android/iOS device or emulator
 
-### Installation
+### Quick Start
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/moneypulse-by-km.git
-
-# Navigate to project
-cd moneypulse-by-km
+git clone https://github.com/mkowndinya/MoneyPulse.git
+cd MoneyPulse
 
 # Install dependencies
 npm install
 
-# Start development server
+# Start the development server
 npx expo start
 ```
 
-Scan the QR code with Expo Go (Android) or Camera app (iOS).
+Scan the QR code with **Expo Go** (Android) or the Camera app (iOS) to run on your device.
 
-### Build APK (Android)
+### Dependencies
 
-```bash
-# Install EAS CLI
-npm install -g eas-cli
-
-# Login to Expo
-eas login
-
-# Configure build
-eas build:configure
-
-# Build APK
-eas build -p android --profile preview
+```
+expo
+react-native
+react-native-safe-area-context
+@expo/vector-icons
+expo-local-authentication
+@react-native-async-storage/async-storage
+expo-file-system
+expo-sharing
 ```
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
-moneypulse-by-km/
-├── App.js                 # Main application (Dashboard, Month, Detail, Settings screens)
+MoneyPulse/
+├── App.js                    # Main app — all screens & navigation
 ├── src/
-│   ├── data.js            # Categories, presets, themes, initial data, app config
-│   └── storage.js         # AsyncStorage wrapper (data + theme persistence)
-├── assets/
-│   ├── icon.png           # App icon
-│   └── favicon.png        # Web favicon
-├── app.json               # Expo configuration
-├── package.json           # Dependencies
-├── eas.json               # EAS Build configuration
-├── babel.config.js        # Babel setup
-└── README.md              # This file
+│   ├── data.js               # Categories, themes, fonts, demo data (12 months)
+│   ├── storage.js            # AsyncStorage CRUD for data, theme, font, cards, custom categories
+│   ├── auth.js               # Biometric + PIN authentication
+│   ├── vault.js              # Password vault with character-shift encoding
+│   └── export.js             # CSV export + Google Sheets sync
+├── screenshots/              # App screenshots for README
+├── package.json
+├── app.json
+└── babel.config.js
 ```
 
 ---
 
-## 📋 Expense Categories
+## Tech Stack
 
-| Category | Tracked Items |
-|----------|--------------|
-| 🏠 **Essentials** | Rent, Family support, Bills |
-| 💪 **Health & Wellness** | Yoga, Travel, Medicine |
-| 👨‍👩‍👧 **Personal/Family** | Gold Loan, Investment plans, Gifts |
-| 💳 **Card Transactions** | 20+ bank/card accounts (AXIS, HDFC, ICICI, SBI, RBL, etc.) |
-| 🏡 **Home Care** | Groceries, Milk, Meat, Fruits, Vegetables, Power, Internet, Gas |
-| 👤 **Other Expenses** | Tracked separately, excluded from main totals |
-
----
-
-## 🗺️ Roadmap
-
-- [x] Multi-category expense tracking
-- [x] Interactive dashboard with KPI cards
-- [x] 5 premium themes with persistence
-- [x] Preset quick-add for all categories
-- [x] Smart autocomplete suggestions
-- [ ] Monthly budget limits with alerts
-- [ ] Export to CSV/Excel
-- [ ] Charts & graphs (pie chart, line trends)
-- [ ] Recurring expense auto-fill
-- [ ] Cloud sync (optional)
-- [ ] Biometric lock (fingerprint/face)
+| Layer | Technology |
+|-------|-----------|
+| Framework | React Native + Expo SDK 52+ |
+| State | React Context + useState/useCallback |
+| Storage | AsyncStorage (local, encrypted vaults) |
+| Auth | expo-local-authentication (biometric) |
+| Icons | @expo/vector-icons (Feather) |
+| Export | expo-file-system + expo-sharing |
+| Architecture | Single-file component design, context-based theming |
 
 ---
 
-## 🧑‍💻 About the Developer
+## Default Categories
+
+| Category | Icon | Color | Description |
+|----------|------|-------|-------------|
+| Essentials | 🏠 | Teal | Rent, bills, recharges |
+| Health & Wellness | 💪 | Green | Yoga, medicine, travel |
+| Personal/Family | 👨‍👩‍👧 | Yellow | Loans, investments, gifts |
+| Card Transactions | 💳 | Blue | Credit card payments |
+| Home Care | 🏡 | Pink | Groceries, utilities, fuel |
+| Gowtham's Expenses | 👤 | Purple | Shared/family member expenses |
+
+*Custom categories can be added with your own icon, color, and emoji.*
+
+---
+
+## Version History
+
+| Version | Date | Changes |
+|---------|------|---------|
+| **2.1.0** | Mar 2026 | 3-dot menu, fingerprint-first auth, date tracking with filter, custom categories, 12-month demo data |
+| **2.0.0** | Mar 2026 | Multi-theme (7), font selector, credit card vault, password vault, Google Sheets sync |
+| **1.0.0** | Feb 2026 | Initial release — basic expense tracking, PIN auth, CSV export |
+
+---
+
+## The Story Behind MoneyPulse
+
+In **2015**, I built my first app — **EDZE** — as a JNTUK University student. It mapped engineering colleges and surrounding industries around Kakinada to help students discover placement opportunities. Built on MIT App Inventor 2 under the guidance of **S. Veerabadraiah sir** and inspired by **Dr. J.V.R. Murthy sir**, EDZE won **first prize at university level**.
+
+**11 years later**, with 9+ years of enterprise IT experience as an Observability Specialist, I built MoneyPulse in under 3 hours using AI-assisted development — a testament to how far the tools have evolved, while the drive to build remains the same.
+
+> [🎬 Watch the EDZE demo (2015)](https://www.youtube.com/watch?v=w17lbsfAkhQ)
+
+---
+
+## Author
 
 **Kowndinya Mannepalli**
-- 🏢 Observability Specialist at Amgen, Hyderabad
-- 📜 Certified: Azure AZ-104, AZ-400, Dynatrace Associate
-- 🎓 9+ years in Enterprise IT (TCS → Infosys → Amgen)
-- 🧠 AIOps Educator — Daily teaching practice for students
-- 🔧 Specializing in Dynatrace, Cloud Infrastructure, DevOps
+*SRE & Observability Specialist*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/kowndinyamv/)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github)](https://github.com/mkowndinya)
-
----
-
-## 📄 License
-
-© 2026 Kowndinya Mannepalli. All rights reserved.
-
-This project is shared for **viewing and educational purposes only**. No permission is granted to copy, modify, distribute, or use this code in any form without explicit written consent from the author.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-kowndinymv-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/kowndinymv/)
+[![GitHub](https://img.shields.io/badge/GitHub-mkowndinya-181717?style=flat-square&logo=github)](https://github.com/mkowndinya)
 
 ---
 
 <p align="center">
-  <strong>Money</strong><span style="color: #00C9A7">Pulse</span> by KM<br/>
-  <em>Built with ❤️ using React Native + Expo | Cloud-Native Architecture</em>
+  <sub>Built with ❤️ using React Native + Expo | Cloud-Native Architecture</sub>
 </p>
